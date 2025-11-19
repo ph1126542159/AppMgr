@@ -101,6 +101,11 @@ export default {
   padding: 32px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 100%;
+  max-width: 800px;
+  /* 最大宽度，可调 */
+  min-width: 500px;
+  /* 最小宽度，可调 */
 }
 
 /* 标题 */
